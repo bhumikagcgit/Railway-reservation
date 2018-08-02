@@ -1,0 +1,41 @@
+
+body
+{
+ background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c8/WAP-4_Class_locomotive_of_Indian_Railways.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+    
+ margin-top: 40px;
+ font-size:x-large;
+ 
+     padding: auto;
+     text-align: center;
+     text-align-last: center;
+     text-decoration: beige;
+     color: #ff0033;
+
+     text-height: font-size;
+     text-indent: hanging;
+ 
+ .button{
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    background-color: #008CBA;
+ 
+ }
+}
+ 
+ h3{
+     color:  aqua;
+ }
+ h1{
+     color:  #008CBA;
+ }
+ p{
+     color:  blanchedalmond;
+ }

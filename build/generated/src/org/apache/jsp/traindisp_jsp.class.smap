@@ -1,0 +1,18 @@
+SMAP
+traindisp_jsp.java
+JSP
+*S JSP
+*F
++ 0 traindisp.jsp
+traindisp.jsp
+*L
+1,27:47
+29,16:75
+44,3:91
+47,6:94,3
+53,4:112
+57:116,3
+58,4:119
+62,5:124
+66,7:129
+*E

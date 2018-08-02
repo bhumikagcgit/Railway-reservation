@@ -1,0 +1,21 @@
+body{
+    font-size: 5mm;
+    margin-top: 200px; 
+    margin-left: 500px;
+    background-image: url("http://tong.visitkorea.or.kr/cms/resource_etc/94/2394094_image_1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+ .form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 24px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ }

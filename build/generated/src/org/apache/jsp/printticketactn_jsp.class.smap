@@ -1,0 +1,20 @@
+SMAP
+printticketactn_jsp.java
+JSP
+*S JSP
+*F
++ 0 printticketactn.jsp
+printticketactn.jsp
+*L
+1,12:47
+14,16:61
+29,6:77
+35,6:83,3
+41:101
+42,3:102,3
+45,3:111
+47:113,2
+48,3:115
+51,5:119
+55,41:124
+*E

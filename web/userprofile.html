@@ -1,0 +1,43 @@
+
+<html>  
+<head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" href="userprofile.css">
+</head>
+    <body style=" margin-left: 100px; margin-top: 50px;">
+        <div  class="user" style="margin-left: 50px">
+        <h1> WELCOME TO SOUTHERN RAILWAYS</h1>
+        <br>
+        <br>
+        
+    <button type="button" class="btn btn-primary" value="CHECK TRAIN STATUS" onclick="location = 'statdisp.jsp'">CHECK TRAIN STATUS</button>
+    <button type="button" class="btn btn-primary" value="BOOK TICKETS" onclick="location = 'booking.html'">BOOK TICKETS</button>
+    <button type="button" class="btn btn-primary" value="PRINT TICKET" onclick="location = 'printicket.jsp'">PRINT TICKET</button>
+    <button type="button" class="btn btn-warning" value="CANCEL TICKET" onclick="location = 'cancelticket.jsp'">CANCEL TICKET</button>
+    <button type="button" class="btn btn-warning" value="Log Out" onclick="location = 'logout.jsp'">Log Out</button>
+    
+    <br>
+    <br>   
+    
+    <div class="search">
+    <h2>
+        SEARCH FOR TRAINS BETWEEN
+    </h2>
+        <br>
+        <br>
+    <div>
+    <form name="myForm" action="traindisp.jsp" method="POST">
+        From station:<input type="text" style="color:  #000099;" name="frmstn" placeholder="from station"> 
+        To station:<input type="text" style="color:  #000099;" name="tostn" placeholder="to station">
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary" value="SEARCH" onclick="location = 'traindisp.jsp'">SEARCH</button>
+    </form>
+    </div>
+        </div>
+        </div>
+    
+</body>
+</html>

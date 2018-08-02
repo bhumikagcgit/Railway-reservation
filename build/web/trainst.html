@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+     
+
+    <head>
+<script>
+
+function addAction()
+{	
+    document.location.href("connection.jsp");
+}	
+
+</script>
+          <link rel="stylesheet" href="insert.css"> 
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    </head>
+    <body style="color:  #ffccff;">
+
+        <h2 style="margin-left: 500px;">  THIS IS ADMIN PAGE </h2>
+        <br>        
+        <h3 style="margin-left: 500px;">  YOU CAN ADD  TRAIN DETAILS HERE </h3>
+        
+       <div  class="admin">  
+    <form name="myForm" action="trainst.jsp" method="POST" >
+        <div class="form-group" style="margin-left: 400px">
+      <label class="control col-sm-3"  style="color: white!important;max-width:14%">TRAIN NO</label>
+      <div class="col-sm-4">
+        <input class="form-control" placeholder="Enter train no" name="trainno">
+      </div>
+    </div>
+        <br>
+        <br>
+
+                <div class="form-group" style="margin-left: 400px">
+      <label class="control col-sm-3"  style="color: white!important;max-width:14%">DATE:</label>
+      <div class="col-sm-4">
+          <input class="form-control"  type="date"   name="date">
+      </div>
+    </div>
+        <br>
+        <br>
+               <div class="form-group" style="margin-left: 400px">
+      <label class="control col-sm-3"  style="color: white!important;max-width:14%">AVAILABLE SEATS</label>
+      <div class="col-sm-4">
+        <input class="form-control" placeholder="Enter avail seats" name="avail">
+      </div>
+    </div>
+        <br>
+        <br>
+    
+  
+    <br>
+    <br>
+  <div class="form-group" style="margin-left: 400px">        
+      <div class="col-sm-7">
+          <button type="submit" class="btn btn-primary" value="ADD" style="width:85px!important;height:35px!important;font-size:20px">ADD</button>
+      </div>
+    </div>
+    
+ 
+    </br> 
+</form>  
+       </div>
+</body>
+</html>
+
+
+	

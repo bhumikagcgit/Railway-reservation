@@ -1,0 +1,34 @@
+body
+{
+      background-image: url("http://74f85f59f39b887b696f-ab656259048fb93837ecc0ecbcf0c557.r23.cf3.rackcdn.com//assets/library/image/e/original/elizabeth%20line%20trains%20in%20production_242726.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+ 
+ }
+ .form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 24px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ }
+ .admin
+{
+ 
+    
+ margin-top: 40px;
+ font-size:x-large;
+ 
+     padding: auto;
+     text-align: center;
+     text-align-last: center;
+     text-decoration: beige;
+     text-height: font-size;
+     text-indent: hanging;
+}
